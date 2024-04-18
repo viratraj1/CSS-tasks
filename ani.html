@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            position: relative;
+            background-color: black;
+           
+        }
+        .ball1{
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+            border-radius: 50%;
+            position: absolute;
+            box-shadow: 0px 0px 20px aqua;
+            margin-left: 100px;
+            bottom: 110px;
+            animation-name: ani;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+           
+
+            
+        }
+        @keyframes ani{
+            0%{
+                top: 270px;
+                background-color: gold;
+            }
+            30%{
+                top: 0px;
+            }
+            50%{
+                background-color: antiquewhite;
+                top: 200px;
+            }
+            75%{
+                background-color: gold;
+                top: 0px;
+            }
+            80%{
+                top: 300;
+            }
+            100%{
+                top: 0px;
+            }
+        }
+        .ball2{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border-radius: 50%;
+            margin-left: 200px;
+            box-shadow: 0px 0px 20px gold;
+            position: absolute;
+            bottom: 110px;
+            animation-name: fromball;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+
+            
+        }
+        @keyframes fromball{
+            0%{
+                top: 270px;
+                background-color: gold;
+            }
+            50%{
+                background-color: antiquewhite;
+                top: 0px;
+            }
+            75%{
+                background-color: gold;
+                top: 300px;
+            }
+            100%{
+                top: 0px;
+            }
+        }
+        .ball3{
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            border-radius: 50%;
+            position: absolute;
+            box-shadow: 0px 0px 20px springgreen;
+            margin-left: 310px;
+            bottom: 100px;
+            animation-name: ball;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+
+            
+        }
+        @keyframes ball{
+            0%{
+                top: 200px;
+                background-color: gold;
+            }
+            50%{
+                background-color: antiquewhite;
+                top: 0px;
+            }
+            75%{
+                background-color: gold;
+                top: 400px;
+            }
+            100%{
+                top: 0px;
+            }
+        }
+        .ball4{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 410px;
+            bottom: 100px;
+            box-shadow: 0px 0px 20px greenyellow;
+            animation-name: divball;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+
+            
+        }
+        @keyframes divball{
+            0%{
+                top: 200px;
+                background-color: gold;
+            }
+            50%{
+                background-color: antiquewhite;
+                top: 0px;
+            }
+            75%{
+                background-color: gold;
+                top: 350px;
+            }
+            100%{
+                top: 0px;
+            }
+        }
+        
+
+        .ball5{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(21, 150, 66);
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 510px;
+            box-shadow: 0px 0px 20px red;
+            bottom: 100px;
+            animation-name: whiteball;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+            
+        }
+        /* @keyframes whiteball{
+            from{
+                top: 270px;
+                background-color: gold;
+            }
+            to{
+                background-color: antiquewhite;
+                top: 0px;
+            }
+        } */
+        @keyframes whiteball{
+            0%{
+                top: 270px;
+                background-color: gold;
+            }
+            50%{
+                background-color: antiquewhite;
+                top: 0px;
+            }
+            75%{
+                background-color: gold;
+                top: 300px;
+            }
+            100%{
+                top: 0px;
+            }
+        }
+    
+
+
+    </style>
+</head>
+<body>
+
+    <div class="ball1"></div>
+    <div class="ball2"></div>
+    <div class="ball3"></div>
+    <div class="ball4"></div>
+    <div class="ball5"></div>
+    
+</body>
+</html>

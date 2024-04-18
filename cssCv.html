@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CV</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        .cv1{
+            position: absolute;
+            width: 350px;
+            height: 1050px;
+         background-color: white;
+         box-shadow: 0px 0px 10px black;
+         left: 5px;
+        }
+        img{
+            width: 350px;
+            height: 300px;
+        }
+        .name{
+            position: absolute;
+            top: 200px;
+            letter-spacing: 2px;
+            font-size: 40px;
+            color: white;
+        }
+        ul li{
+            font-size: 20px;
+            
+        }
+        .skill{
+            font-size: 30px;
+            text-align: center;
+            color:  rgb(155, 125, 85);
+        }
+        label{
+            font-size: 20px;
+        }
+        progress{
+          width: 300px;
+            height: 40px;
+            color: aquamarine;
+        }
+        .language{
+            text-align: center;
+           color:  rgb(155, 125, 85);
+        }
+        #secunddiv{
+            position: absolute;
+            width: 800px;
+            height: 600px;
+            background-color: white;
+            left: 370px;
+            box-shadow: 0px 0px 10px black;
+          
+        }
+        #secunddiv> h1{
+            text-align: center;
+            color:  rgb(155, 125, 85);
+        }
+        #secunddiv>p{
+            text-align: left;
+            font-size: 20px;
+            padding: 20px;
+        }
+        #secunddiv> h3{
+            font-size: 20px;
+            letter-spacing: 3px;
+            text-align: left;
+            left: 5px;
+            color:  rgb(155, 125, 85);
+
+        }
+        #date{
+            color: rgb(32, 130, 97);
+        }
+        .thareddiv{
+            position: relative;
+            width: 800px;
+            height: 460px;
+            background-color: white;
+            left: 370px;
+            box-shadow: 0px 0px 10px black;
+            top: 620px;
+           
+            
+        }
+        .Education{
+            text-align: center;
+            color:  rgb(155, 125, 85);
+            font-size: 40px;
+
+        }
+        .virat{
+            font-size: 20px;
+            padding: 10px;
+
+        }
+        .thareddiv>p{
+            font-size: 20px;
+            padding: 9px;
+            color:  rgb(155, 125, 85);
+        }
+        span{
+            background-color: rgb(13, 63, 46);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv1">
+    <img src="c:\Users\Dell\OneDrive\Pictures\Virat-Kohli-.jpg" alt="">
+    <h2 class="name">Virat Kohli</h2>
+    
+    
+        <ul>
+           <li>  &#128188;Designer</li>
+           <li>  &#9962; INDIA,KA</li>
+           <li> &#128231;  viratkohli@mail.com</li>
+           <li>&#x1F57F; 6304973977</li>
+        </ul>
+    <hr>
+
+  
+
+    <h4 class="skill">Skills</h4>
+     
+    <h4> &#127951; Cricket</h4>
+    <progress value="90" max="100"></progress>
+    <h3>  &#128247;Photography</h3>
+    <progress value="50" max="100"></progress>
+    <h3> &#128241;Instagram</h3>
+    <progress value="60" max="100"></progress>
+    <h3> &#127909;Media</h3>
+    <progress value="40" max="100"></progress>
+
+<h2 class="language"> &#127759;Languages</h2>
+
+<h2>English</h2>
+<progress value="90" max="100"></progress>
+<h2>Hindi</h2>
+<progress value="40" max="100"></progress>
+<h2>Telugu</h2>
+<progress value="80" max="100"></progress>
+</div>
+
+<div id="secunddiv">
+
+
+     <h1> &#128188;Work Experience</h1>
+    <h3>Front End Developer</h3>
+    <p id="date"> &#128198;jan 2015 - <span>current</span></p>
+    <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur 
+        est reprehenderit sunt hic.
+         Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p><hr>
+
+         <h3>Web Developer / something.com</h3>
+         <p id="date">  &#128198;Mar 2012-Dec 2014</p>
+         <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic.
+             Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+
+             <h3>Graphic Designer / designsomething.com</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p> 
+
+</div>
+
+<div class="thareddiv">
+
+    <h1 class="Education"> &#128214;Education</h1>
+    <h3 class="virat">ViratKohli.com</h3>
+    <p id="date">Forever</p>
+    <p>Web Development! All I need to know in one place</p>
+    <h3 class="virat">London Business School</h3>
+    <hr>
+    <p>London Business School</p>
+    <p id="date">2013-2015</p>
+    <p>Master Degree</p>
+    <hr>
+    <h3 class="virat">School of Coding</h3>
+    <p id="date">2010-2013</p>
+    <h3 class="virat">Bachelor Degree</h3>
+</div>
+
+
+    
+</body>
+</html>

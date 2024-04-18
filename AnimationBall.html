@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    
+
+    <style>
+    *{
+        padding: 0px;
+        margin: 0px;
+      
+    }
+    body{
+        background-color: black;
+
+    }
+    #allballs div{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        margin: 10px;
+    }
+
+    #allballs{
+        margin-top: 500px;
+        position: absolute;
+       margin-left: 400px;
+     
+      
+    }
+    #ball1{
+        width: 90px;
+        height: 70px;
+        background-color: aqua;
+        border-radius: 50%;  
+    }
+    #ball2{
+        width: 90px;
+        height: 70px;
+        background-color: blue;
+        border-radius: 50%;
+    }
+    #ball3{
+        width: 90px;
+        height: 70px;
+        background-color: red;
+        border-radius: 50%;
+    }
+    #ball4{
+        width: 90px;
+        height: 70px;
+        background-color: yellow;
+        border-radius: 50%;
+    
+    }
+    
+
+    #ball5{
+        width: 90px;
+        height: 70px;
+        background-color: gold;
+        border-radius: 50%;
+        animation-name: anim5;
+       
+       
+    }
+    @keyframes anim5{
+        from{
+            background-color: brown;
+        }
+        to{background-color: blue;}
+    }
+
+
+    /* #allballs div:nth-child(even){
+        animation-name: allballs;
+        animation-duration: initial;
+      animation-iteration-count: infinite;
+      animation-delay: 1s;
+    }
+    #allballs div:nth-child(odd){
+        animation-name: ball;
+        animation-duration: inherit;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+    }
+
+    @keyframes allballs{
+        0%{ top: 200px;}
+        50%{top: 0px;}
+        100%{ top: 200px;}
+    }
+    @keyframes ball{
+        0%{ bottom: 100px;}
+        50%{ bottom: 0px;}
+        100%{ bottom: 200px;}
+    } */
+      
+       
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+<div id="allballs">
+    <div id="ball1"></div>
+    <div id="ball2"></div>
+    <div id="ball3"></div>
+    <div id="ball4"></div>
+    <div id="ball4"></div>
+</div>
+    
+</body>
+</html>
