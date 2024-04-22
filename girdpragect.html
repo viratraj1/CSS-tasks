@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        
+.navabar{
+    height: 590px;
+    width: 300px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   position: fixed;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: rgb(225, 132, 17);
+   
+
+}
+h3{
+    text-align: center;
+  position: relative;
+  top: 200px;
+  color: rgb(225, 132, 17);
+  line-height: 20px;
+}
+h3:hover{
+    background-color: rgb(167, 161, 161);
+    height: 30px;
+}
+#seconddiv{
+    height: 1500px;
+    width: 990px;
+    top: 0px;
+    position: relative;
+    left: 290px;
+   display: grid;
+    grid-template-columns: auto auto auto ;
+   
+
+
+   
+   
+}
+#girdimg{
+height: 380px;
+width: 300px;
+opacity: 0.8;
+padding: 0px;
+}
+#girdimg:hover{
+opacity: 1;
+
+}
+#thireddiv{
+height: 90px;
+width: 950px;
+background-color: bisque;
+display: grid;
+justify-content: center;
+grid-template-columns: auto auto auto auto auto auto ;
+gap: 50px;
+align-items: center;
+position: relative;
+left: 290px;
+top: 30px;
+
+}
+
+
+#thireddiv div:hover{
+background-color: black;
+height: 50px;
+width: 50px;
+gap: 50px;
+color: white;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+#forthdiv{
+height: 2150px;
+width: 950px;
+background-color: rgba(98, 89, 89, 0.84);
+margin-top: 30px;
+position: relative;
+left: 290px;
+display: grid;
+align-items: center;
+justify-content: center;
+justify-items: center;
+grid-column: 20px;
+
+}
+#rajimg{
+height: 500px;
+width: 500px;
+border-radius: 20px;
+}
+#forthdiv >div{
+color: white;
+text-align: center;
+font-size: 20px;
+/* padding-top: 100px;
+padding: 20px; */
+
+
+display: inline;
+margin: 150px;
+position: relative;
+bottom: 100px;
+
+}
+#forthdiv >h2{
+text-align: center;
+color: white;
+font-size: 30px;
+
+
+}
+#forthdiv>h4{
+text-align: center;
+font-size: 30px;
+color: white;
+
+margin: 0;
+
+}
+#forthdiv>#pnonamber{
+text-align: center;
+font-size: 20px;
+position: relative;
+bottom: 200px;
+right: 200px;
+margin-top: 10px;
+ color: white;
+
+}
+#forthdiv>#pemil{
+text-align: center;
+font-size: 20px;
+color: white;
+border: 100px;
+position: relative;
+bottom: 200px;
+right: 200px;
+margin-top: 10px;
+
+}
+
+
+#webdiv >p{
+text-align: center;
+font-size: 20px;
+color: white;
+position: relative;
+bottom: 200px;
+right: 200px;
+margin-top: 10px;
+
+}
+#webdiv >h5{
+
+
+font-size: 20px;
+color: white;
+position: relative;
+bottom: 200px;
+right: 200px;
+margin-top: 10px;
+
+}
+#webdiv >#Photography{
+
+font-size: 20px;
+color: white;
+position: relative;
+bottom: 200px;
+right: 200px;
+margin-top: 10px;
+
+}
+#webdiv >#range{
+height: 40px;
+width: 500px;
+background-color:white;
+text-align: center;
+border-radius: 40px;
+position: relative;
+bottom: 200px;
+right: 150px;
+margin-top: 10px;
+}
+#range>div{
+height: 40px;
+width: 450px;
+background-color:  rgb(82, 79, 79);
+text-align: center;
+border-radius: 40px;
+color: white;
+text-align: center;
+
+}
+#webdiv >#range2{
+height: 40px;
+width: 500px;
+background-color:white;
+text-align: center;
+border-radius: 40px;
+position: relative;
+bottom: 200px;
+right: 150px;
+margin-top: 10px;
+}
+#range2>div{
+height: 40px;
+width: 350px;
+background-color:  rgb(82, 79, 79);
+text-align: center;
+border-radius: 40px;
+color: white;
+text-align: center;
+
+}
+#webdiv >#range3{
+height: 40px;
+width: 500px;
+background-color:white;
+text-align: center;
+border-radius: 40px;
+position: relative;
+bottom: 200px;
+right: 150px;
+margin-top: 10px;
+}
+#range3>div{
+height: 40px;
+width: 380px;
+background-color:  rgb(82, 79, 79);
+text-align: center;
+border-radius: 40px;
+color: white;
+text-align: center;
+
+}
+  #resum{
+position: relative;
+bottom: 200px;
+right: 280px;
+padding: 15px;
+margin: 40px;
+font-size: 15px;
+opacity: 0.5;
+border-radius: 5px;
+}
+#resum:hover{
+   opacity: 1;
+}
+.howmuch{
+position: relative;
+bottom: 200px;
+right: 150px;
+margin-top: 10px;
+}
+
+
+#basicdiv{
+height: 500px;
+width: 300px;
+background-color: white;
+position: relative;
+bottom: 200px;
+right: 150px;
+margin-top: 10px;
+box-shadow: 0px 5px 10px ;
+opacity: 0.5;
+}
+#basicdiv:hover{
+opacity: 5;
+
+}
+
+#basicdiv>header{
+background-color: black;
+height: 70px;
+color: white;
+font-size: 40px;
+padding: 20px;
+}
+#basicdiv>p{
+font-size: 20px;
+color: black;
+
+}
+#prodiv{
+height: 500px;
+width: 300px;
+background-color: white;
+position: absolute;
+top: 280px;
+left:  200px;
+box-shadow: 0px 5px 10px ;
+opacity: 0.5;
+}
+#prodiv:hover{
+opacity: 1;
+}
+#prodiv>p{
+font-size: 20px;
+color: black;
+}
+#prodiv>header{
+background-color: black;
+height: 70px;
+color: white;
+font-size: 40px;
+padding: 20px;
+}
+
+/* ===========>contact me<=========== */
+
+
+#contactdiv{
+height: 640px;
+width: 950px;
+background-color: rgb(238, 235, 231);
+position: relative;
+left:  290px;
+
+
+}
+#contactdiv>p{
+text-align: center;
+font-size: 20px;
+margin: 100px;
+}
+#contactdiv>input{
+text-align: center;
+height: 50px;
+width: 800px;
+margin: 10px;
+position: relative;
+bottom: 100px;
+left: 30px;
+}
+#contactdiv>label{
+font-size: 20px;
+position: relative;
+display: grid;
+bottom: 100px;
+left: 30px;
+
+}
+#sendbutton{
+background-color: black;
+color: white;
+opacity: 0.7;
+}
+#sendbutton:hover{
+opacity: 1;
+}
+
+
+#informasen{
+  height: 400px;
+width: 950px;
+background-color: rgb(92, 92, 91);
+display: grid;
+grid-template-columns: auto auto auto auto auto;
+position: relative;
+left:  290px;
+top: 0px;
+gap: 40px;
+align-items: center;
+justify-content: center;
+
+
+}
+#info{
+  position: relative;
+ bottom: 100px;
+ left: 90px;
+ font-size: 30px;
+ letter-spacing: 2px;
+}
+.travelbtn >button{
+  width: 90px;
+  height: 30px;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+.travelbtn >button:hover{
+  opacity: 1;
+  
+}
+
+
+#loremimg{
+    height: 80px;
+    width: 80px;
+
+}
+.hover:hover{
+  background-color: black;
+  color: white;
+}
+.rajkumar{
+  height: 90px;
+  width: 950px;
+  background-color: black;
+  color: white;
+  position: relative;
+  left: 290px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="navabar">
+        <h1>SOME NAME</h1>
+        <h3 >PROTFILIO</h3>
+        <h3 >ABOUT ME</h3>
+        <h3 >CONTACT</h3>
+    </div>
+   
+
+    <div id="seconddiv">
+
+
+       <div><img src="c:\Users\Dell\OneDrive\Pictures\IMG_20230912_091021.jpg" alt="" id="girdimg"></div>
+       <div><img src="c:\Users\Dell\OneDrive\Pictures\king.jpg" alt=""  id="girdimg"></div>
+       <div><img src="c:\Users\Dell\OneDrive\Pictures\smele.jpeg" alt="" id="girdimg"></div>
+       <div><img src="c:\Users\Dell\Downloads\WhatsApp Image 2023-05-13 at 18.03.18.jpg" alt="" id="girdimg"></div>
+       <div><img src="c:\Users\Dell\Downloads\gim.virat kohli.jpg" alt="" id="girdimg"></div>
+       <div><img src="c:\Users\Dell\Downloads\WhatsApp Image 2023-11-21 at 15.36.52_c72706de.jpg" alt="" id="girdimg"></div>
+       <div><img src="c:\Users\Dell\Downloads\Virat kohli  (3).jpg" alt="" id="girdimg"></div>
+       <div><img src="c:\Users\Dell\Downloads\rcb.king.jpg" alt=""  id="girdimg"></div>
+       <div><img src="c:\Users\Dell\Downloads\abd.king.jpg" alt="" id="girdimg"></div>
+       <div><img src="c:\Users\Dell\Downloads\rcb.100.jpg" alt="" id="girdimg"></div>
+       <div><img src="c:\Users\Dell\Downloads\king.143.jpg" alt="" id="girdimg"></div>
+       <div><img src="c:\Users\Dell\Downloads\kohli.p.jpg" alt="" id="girdimg"></div>
+ 
+    </div>
+    <div id="thireddiv">
+        <div>&#9204;</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>&#9205;</div>
+
+    </div>
+
+    <div id="forthdiv">
+        <h2 id="me">About Me</h2>
+
+        <img src="c:\Users\Dell\Downloads\raj kumar .jpg" alt="" id="rajimg">
+
+        <h4>My Name</h4>
+
+        <div >Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+<hr>
+            <p id="pemil">poolarajkumar31@emil.com</p>
+            <p id="pnonamber"><b>Pno:6304973977</b></p>
+           
+              <div  id="webdiv">
+                <p>Technical Skills</p>
+                <div id="range"><div>90%</div></div>
+                <h5>Web Design</h5>
+                <div id="range2"><div>80%</div></div>
+                <h5 id="Photography">Photography</h5>
+                <div id="range3"><div>85%</div></div>
+                <button id="resum">Download Resume</button>
+                <h2 class="howmuch">How much I charge</h2>
+
+
+                <div id="basicdiv">
+                  <header>
+                    Basic
+                  </header>
+                  <p>Web Design</p><hr>
+                  <p>Photography</p><hr>
+                  <p>5GB Storaphy</p><hr>
+                  <p>Mail Support</p><hr>
+                  <p>$ 10 per moth</p><hr>
+                  <p>Sign Up</p><hr>
+
+                </div>
+                <div id="prodiv">
+                  <header>
+                   pro
+                  </header>
+                  <p>Web Design</p><hr>
+                  <p>Photography</p><hr>
+                  <p>5GB Storaphy</p><hr>
+                  <p>Mail Support</p><hr>
+                  <p>$ 25 per moth</p><hr>
+                  <p>Sign Up</p><hr>
+
+                </div>
+              </div>
+
+
+    </div>
+    
+
+
+
+    <div id="contactdiv">
+
+      <h1>Contact Me</h1>
+        <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+        <label for="Name">Name</label><br>
+        <input type="Name"><br>
+        <label for="Email">Email</label><br>
+        <input type="Email"><br>
+        <label for="Message">Message</label><br>
+        <input type="message"><br>
+        <input type="button" value="Send Message" id="sendbutton">
+
+    </div>
+
+
+
+
+   <div id="informasen">
+    <h5 id="info">INFO</h5>
+    <b >Praesent tincidunt sed tellus ut rutrum.
+       Sed vitae justo condimentum, Praesent tincidunt sed tellus ut rutrum.
+       Sed vitae justo condimentum,Praesent tincidunt sed tellus ut rutrum.
+       Sed vitae justo condimentum,
+      .</b>
+
+
+      <div>
+        <h6>BLOG POSTS</h6>
+        <img src="c:\Users\Dell\Downloads\pexels-eberhard-grossgasteiger-1367192.jpg" alt="" id="loremimg" class="hover">
+        <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><hr>
+        <img src="c:\Users\Dell\Downloads\pexels-asad-photo-maldives-1450360.jpg" alt=""  id="loremimg" class="hover">
+        <p class="hover">ipsum praes tinci sed</p>
+
+      </div>
+
+      <div class="travelbtn">
+        <button id="">Travel</button>
+        <button>New York</button>
+        <button>Londan</button>
+        <button>lKEA</button>
+        <button>NORdon</button>
+        <button>DlY</button>
+        <button>ldeas</button>
+        <button>Baby</button>
+        <button>Family</button>
+        <button>News</button>
+        <button>Clothing</button>
+        <button>Shoooing</button>
+        <button>Sports</button>
+        <button>Games</button>
+      </div>
+
+
+
+
+   </div>
+
+   <div class="rajkumar"> Powered Raj Kumar</div>
+
+
+
+
+
+
+
+
+    
+    
+    
+</body>
+</html>
